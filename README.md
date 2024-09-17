@@ -8,6 +8,6 @@ docker build -t myimage .
 docker run -d --name mycontainer -p 80:80 myimage
 ```
 
-# Open app in browser at domain
+# Open app in browser
 localhost:80     
 localhost:80/docs 
