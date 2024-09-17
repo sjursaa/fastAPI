@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "80:80"
+    develop:
+      watch:
+        - path: .
+          target: /code
+          action: sync
+          #command: >
+          #uvicorn main:code --host localhost --port 80 --reload
