@@ -6,7 +6,7 @@ services:
     develop:
       watch:
         - path: .
-          target: /code
+          target: /app
           action: sync
           #command: >
-          #uvicorn main:code --host localhost --port 80 --reload
+          #uvicorn main:app --host localhost --port 80 --reload
